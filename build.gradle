@@ -42,6 +42,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('io.pivotal.spring.cloud:spring-cloud-services-starter-config-client')
 	compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
+	compile ('org.json:json:20171018')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
