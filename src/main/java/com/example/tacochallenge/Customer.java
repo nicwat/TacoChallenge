@@ -32,7 +32,7 @@ public class Customer {
 
     public Customer(){}
 
-    public Customer(CustomerId customerId, String name, String email,){
+    public Customer(CustomerId customerId, String name, String email){
         this.customerId = customerId;
         this.name = name;
         this.email = email;
